@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  /* === T E M P L A T E _ C O L U M N S === */
+  /* grid-template-columns: 20% auto 20%; */
+  /* grid-template-columns: 200px auto 200px; */
+  /* grid-template-columns: 2fr 1fr 1fr; */
+  grid-template-columns: repeat(1, 3fr) repeat(2, 1fr);
+
+  /* === T E M P L A T E _ R O W S === */
+  /* grid-template-rows: 200px 200px; */
+  /* grid-template-rows: 50% 50%; */
+  /* grid-template-rows: 200px 200px; */
+  /* grid-template-rows: 2fr 1fr; */
+  grid-template-rows: repeat(2, 200px);
+  /* ======== - G A P - ========= */
+  /* row-gap: 5px;
+  column-gap: 5px; */
+  /* : */
+  gap: 2px;
+  /* ---------------------------- */
+}
